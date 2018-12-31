@@ -8,7 +8,7 @@ Before starting you should learn about sending SMS via email. If I wanted to sen
           'Accept': 'application/json',
           headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
           body: 'email_message=' + JSON.stringify({
-                'mail_to': 5303016604@mms.att.net,
+                'mail_to': '5303016604@mms.att.net',
                 'mail_subject': 'Test1',
                 'mail_message': 'Great. It works!'
           })
