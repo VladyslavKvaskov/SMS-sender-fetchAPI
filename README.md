@@ -4,7 +4,7 @@ Before starting you should learn about sending SMS via email. If I wanted to sen
 
 Here is [the demo](https://marinmover.com/fetchAPI/sms-sender/). The message in the demo is sent only to AT&T and VERIZON carriers.
 
-## Here is a code that could be used to send SMS/MMS to 5303016604 or any other AT&T phone number
+## Here is a code that could be used to send SMS/MMS to 5303016604 or any other phone number
     fetch('https://marinmover.com/email_sender/php/email_sender.php', {
           method: 'POST',
           'Accept': 'application/json',
