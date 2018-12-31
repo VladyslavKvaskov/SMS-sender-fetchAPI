@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SMS Sender</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <div class="body">
+
+      <form class="post-form" aria-label="send sms" role="form">
+        <label for="tel">Send SMS To:</label>
+        <input type="tel" class="tel" id="tel" required>
+
+        <label for="subject">Subject:</label>
+        <input type="text" class="subject" id="subject">
+
+        <label for="message">Message:</label>
+        <textarea class="message" id="message" required></textarea>
+
+        <input type="submit" class="submit" value="Send">
+      </form>
+
+      <div id="result"></div>
+
+    </div>
+
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>
