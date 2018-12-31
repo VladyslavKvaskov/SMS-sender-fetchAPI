@@ -14,11 +14,11 @@ Before starting you should learn about sending SMS via email. If I wanted to sen
           })
       }).then(response => response.json()).then(data => {
           if (data.result == 'success') {
-              result.innerHTML = `SMS was successfully sent to 5303016604`;
+              document.body.innerHTML = `SMS was successfully sent to 5303016604`;
               console.log(data);
           }
           else
-              result.innerHTML = 'Error sending a message!';
+              document.body.innerHTML = 'Error sending a message!';
 
       }).catch(err => {
         console.log(err);
