@@ -23,3 +23,10 @@ Before starting you should learn about sending SMS via email. If I wanted to sen
       }).catch(err => {
         console.log(err);
       });
+### Thanks for visiting this repository
+In the .htaccess file on the server, I wrote
+                                                    
+    Header set Access-Control-Allow-Origin "*"
+so you can access everything on the https://marinmover.com/ using fetch API. You can access https://marinmover.com/email_sender/php/email_sender.php using fetch API without getting the following error
+
+    Access to fetch at 'https://marinmover.com/' from origin 'https://your-origin.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
